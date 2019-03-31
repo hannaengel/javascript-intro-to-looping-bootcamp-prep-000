@@ -12,9 +12,9 @@ function forLoop(array) {
 
 function whileLoop(n){
   while (n >0) {
-    console.log(--n)
+    console.log(--n);
   }
-  return "done"
+  return "done";
 }
 //
 // let i = 0;
@@ -26,8 +26,8 @@ function incrementVariable() {
 
 function doWhileLoop2(num){
   do {
-      console.log("I run once regardless");  
-  } while (true);
+      console.log("I run once regardless");
+  } while (incrementVariable() < num);
 }
 //
 // function doWhileLoop(num){
