@@ -19,10 +19,10 @@ function whileLoop(n){
 // 
 // let i = 0;
 //
-// function incrementVariable() {
-//   i = i + 1;
-//   return i;
-//   }
+function incrementVariable() {
+  i = i + 1;
+  return i;
+  }
 //
 // function doWhileLoop(num){
 //   do{
