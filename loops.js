@@ -23,6 +23,12 @@ function incrementVariable() {
   i = i + 1;
   return i;
   }
+
+function doWhileLoop2(num){
+  do {
+      console.log("I run once regardless");  
+  } while (true);
+}
 //
 // function doWhileLoop(num){
 //   do{
